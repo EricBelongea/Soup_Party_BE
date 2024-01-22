@@ -314,14 +314,14 @@
       "/Users/ericbelongea/Documents/turing_work/4mod/the_soup_party/soup_party_be/app/models/user_social.rb": {
         "lines": [
           1,
-          1,
           null,
-          0,
-          0,
+          null,
+          1,
+          1,
           null
         ]
       }
     },
-    "timestamp": 1705945276
+    "timestamp": 1705945539
   }
 }

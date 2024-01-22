@@ -1,6 +1,6 @@
 class UserSocial < ApplicationRecord
-  validate_presence_of :user_id, :social_id
+  # validate_presence_of :user_id, :social_id
 
-  has_many :users
-  has_many :socials
+  belongs_to :users
+  belongs_to :socials
 end
