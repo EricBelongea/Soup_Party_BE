@@ -1,5 +1,5 @@
 FactoryBot.define do
-  facotry :dish do
+  factory :dish do
     dish_name { Faker::FunnyName.name }
     quantity { Faker::Number.between(from:1, to:20) }
     feeds { Faker::Number.between(from:1, to:20) }

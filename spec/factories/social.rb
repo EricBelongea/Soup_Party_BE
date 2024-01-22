@@ -1,5 +1,5 @@
 FactoryBot.define do
-  facotry :social do
+  factory :social do
     location { Faker::Address.full_address }
     social_name { Faker::FunnyName.name }
     description { Faker::Quote.famous_last_words }

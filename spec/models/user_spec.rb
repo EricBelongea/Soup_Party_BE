@@ -19,4 +19,10 @@ RSpec.describe User, type: :model do
   describe 'has_secure_password' do
     it { should have_secure_password }
   end
+
+  it "Faker and Factory Testing" do
+    user = create(:user)
+
+    expect(user).to be_instance_of(User)
+  end
 end
