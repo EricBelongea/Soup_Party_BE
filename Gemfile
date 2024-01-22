@@ -52,8 +52,8 @@ group :test do
   gem "faker"
   gem 'simplecov'
   gem "shoulda-matchers"
-  # gem "webmock"
-  # gem "vcr"
+  gem "webmock"
+  gem "vcr"
 end
 
 group :development do

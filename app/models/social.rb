@@ -1,4 +1,4 @@
-class Social
+class Social < ApplicationRecord
   validates_presence_of :social_name, :location, :description, :datetime
 
   has_many :user_socials
