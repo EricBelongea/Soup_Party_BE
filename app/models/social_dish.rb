@@ -1,6 +1,4 @@
 class SocialDish < ApplicationRecord
-  validate_presence_of :social_id, :dish_id
-
-  has_many :socials
-  has_many :dishes
+  belongs_to :social
+  belongs_to :dish
 end

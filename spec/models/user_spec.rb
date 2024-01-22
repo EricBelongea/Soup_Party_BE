@@ -15,4 +15,8 @@ RSpec.describe User, type: :model do
     it { should have_many(:user_socials) }
     it { should have_many(:socials).through(:user_socials) }
   end
+
+  describe 'has_secure_password' do
+    it { should have_secure_password }
+  end
 end

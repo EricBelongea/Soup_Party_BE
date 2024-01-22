@@ -3,6 +3,7 @@ class Social < ApplicationRecord
 
   has_many :user_socials
   has_many :users, through: :user_socials
+  
   has_many :social_dishes
   has_many :dishes, through: :social_dishes
 end
